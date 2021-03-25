@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakeAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FakeAPI.Controllers.UserController.get">
+            <summary>
+            Classic Get Method
+            </summary>
+            <returns>User List</returns>
+        </member>
+        <member name="M:FakeAPI.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Get Detail By ID Method
+            </summary>
+            <param name="id">User ID</param>
+            <returns>User Class</returns>
+        </member>
+        <member name="M:FakeAPI.Controllers.UserController.Post(FakeAPI.Models.User)">
+            <summary>
+            Post Method for a user
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FakeAPI.Controllers.UserController.Put(FakeAPI.Models.User)">
+            <summary>
+            put method for a user
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FakeAPI.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            delete user from user list
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:FakeAPI.Fake.FakeData">
+            <summary>
+            Fake Data Method
+            </summary>
+        </member>
+        <member name="T:FakeAPI.Models.Customer">
+            <summary>
+            Customer DTO
+            </summary>
+        </member>
+        <member name="T:FakeAPI.Models.User">
+            <summary>
+            User DTO
+            </summary>
+        </member>
+        <member name="M:FakeAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:FakeAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FakeAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:FakeAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
